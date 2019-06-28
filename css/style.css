@@ -1,0 +1,42 @@
+.container{
+	position:relative;
+	height:650px;
+}
+/*body{
+	height:1800px;
+}*/
+
+.p-relative{
+	position:relative;
+}
+.p-absolute{
+	position:absolute;
+}
+.tom{
+	position:absolute;
+	bottom:0;
+	right:0;
+	animation:tom-anim 2s infinite ;
+}
+.section{
+	background-color:green;
+}
+.jerry{
+	position:absolute;
+	bottom:15px;
+	left:650px;
+	animation:jerry-anim 1s infinite 0.3s;
+}
+
+@keyframes tom-anim {
+    from {right: 0px;}
+    to {right: 950px;}
+    
+  }
+
+
+
+
+
+
+
